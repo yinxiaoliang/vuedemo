@@ -1,10 +1,10 @@
->一个 Vue + nodejs +MongoDB 后台管理系统。到现在大概5天的时间，先写个总结。
+>一个Vue + nodejs +MongoDB 后台管理系统.
 
 
 >Vue负责前端页面的展示，路由功能交给Vue-router。
 
 
->Express不写路由，只负责写api接口，使用mongoose与MongoDB数据库进行数据交互，实现前后端解耦。
+>Express不写路由，只负责写api接口，使用mongoose与MongoDB数据库进行数据交互，实现前后端解耦。
 
 
 在UI框架的选型上还是不太满意，写过之后才发现Iview框架有不少的缺陷，比如menu菜单中缺少路由跳转功能，需要通过点击事件返回的`name`值，通过编程式导航的方式来进行路由跳转`router.push()`，再来就是文档写得并不是很好，虽然ui效果很好。
@@ -62,22 +62,6 @@ npm run build
 ```
 
 
-## 功能
-
-
-- [x] 用户、文章、评论实现增删改查；
-- [x] 基于JWT的登陆验证、状态留存；
-- [x] 使用muler实现上传图片功能；
-- [x] 多分类管理（曾删改）；
-
-
-## 更新计划
-- [ ] 优化分类，与各模块进行交互；
-- [ ] 首页模块；
-- [ ] 数据统计模块；
-
-
-
 
 
 
@@ -120,7 +104,7 @@ npm run build
 |____README.md
 ```
 
-**服务端目录**
+**服务端目录**
 ```
 |____server
 | |____app.js
@@ -169,4 +153,4 @@ npm run build
 
 ## 项目地址
 
-[Github地址](https://github.com/yanzikai/vue后台管理demo)
+[Github地址](https://github.com/yanzikai)
